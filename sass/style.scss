@@ -499,7 +499,23 @@ label {
     }
   }
 }
-// other function
+// other icons
+.phone {
+  right: 0;
+  position: fixed;
+  top: 90%;
+  & img {
+    width: 75%;
+  }
+}
+.top {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  & img {
+    width: 75%;
+  }
+}
 
 // Tablets
 @media (max-width: 900px) and (min-width: 768px) {

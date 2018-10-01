@@ -238,6 +238,14 @@ label { display: none; float: right; color: #EAEAEA; }
 
 .footer__form button { border: none; border-radius: 30px; color: #ffffff; text-transform: uppercase; cursor: pointer; background: #B88B58; padding: 10px; margin-top: 80px; margin-bottom: 20px; }
 
+.phone { right: 0; position: fixed; top: 90%; }
+
+.phone img { width: 75%; }
+
+.top { position: fixed; left: 0; top: 50%; }
+
+.top img { width: 75%; }
+
 @media (max-width: 900px) and (min-width: 768px) { .col-m-1 { width: 8.33333%; }
   .col-m-2 { width: 16.66667%; }
   .col-m-3 { width: 25%; }
